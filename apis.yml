@@ -1,8 +1,24 @@
 aid: the-nuclear-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-nuclear-company.png
 name: The Nuclear Company
-description: 'The Nuclear Company is a company surfaced as a portfolio company of true-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'The Nuclear Company (TNC) is a U.S.-based nuclear energy infrastructure firm deploying
+  nuclear power at fleet scale with a "design once, build many" standardized construction approach.
+  Through its Powerhouse Resources arm it provides maintenance, outage execution, turbine, electrical,
+  and instrumentation services to nuclear plants nationwide, and its proprietary AI-driven Nuclear
+  Operating System (NOS) manages deployment and operations across the nuclear lifecycle. The company
+  publishes no public API, developer portal, or documentation surface; this profile tracks it as an
+  API Evangelist network company and portfolio company of True Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/the-nuclear-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Climate
+- Nuclear
+- Energy
+- Infrastructure
+- Clean Energy
+- Baseload Power
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.thenuclearcompany.com/
+- type: Blog
+  url: https://www.thenuclearcompany.com/news
+- type: Support
+  url: https://www.thenuclearcompany.com/contact
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
